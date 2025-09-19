@@ -18,7 +18,7 @@ class Circle extends Shape {
     }
 }
 
-// Rectangle subclass
+
 class Rectangle extends Shape {
     private double length;
     private double width;
@@ -39,4 +39,4 @@ class Rectangle extends Shape {
         System.out.println("Length: " + length);
         System.out.println("Width: " + width);
         System.out.println("Area: " + String.format("%.2f", calculateArea()));
-    }
+    }}
